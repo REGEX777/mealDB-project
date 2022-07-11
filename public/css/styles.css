@@ -558,18 +558,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -743,6 +731,20 @@ video {
 .after\:content-\[\'\|\'\]::after {
   --tw-content: '|';
   content: var(--tw-content);
+}
+
+@media (min-width: 768px) {
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:ml-20 {
+    margin-left: 5rem;
+  }
+
+  .md\:mr-20 {
+    margin-right: 5rem;
+  }
 }
 
 @media (min-width: 1024px) {
