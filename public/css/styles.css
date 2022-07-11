@@ -578,10 +578,6 @@ video {
   width: auto;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -731,6 +727,12 @@ video {
 .after\:content-\[\'\|\'\]::after {
   --tw-content: '|';
   content: var(--tw-content);
+}
+
+@media (min-width: 640px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
